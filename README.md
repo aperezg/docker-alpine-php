@@ -2,7 +2,7 @@
 
 ## Tags
 
-* latest, 7.0 [Dockerfile](https://github.com/aperezg/docker-alpine-php/7/Dockerfile)
+* latest, 7.0 [Dockerfile](https://github.com/aperezg/docker-alpine-php/blob/master/7/Dockerfile)
 
 Image for php-fpm. It based on Alpine linux and so it's very small (~75MB).
 Include the most common extensions and you can extend whatever you need.
@@ -15,7 +15,7 @@ docker run --rm -p 9000:9000 -v /your/app-directory:/app aperezg/php-alpine:late
 
 ## Run with docker compose
 ```yml
-version '2'
+version: '2'
 services:
     php:
         image: aperezg/php-alpine:latest
@@ -89,7 +89,7 @@ RUN apk --update add \
 
 If you think that you can improve this image, fork this repo, and send me a pull request. I'll be happy to add your new features.
 
-The image is under [GNU v3.0 License](https://github.com/aperezg/docker-alpine-php/blob/master/LICENSE) 
+This repository is under [GNU v3.0 License](https://github.com/aperezg/docker-alpine-php/blob/master/LICENSE) 
 
 
 
