@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aperezg/docker-alpine-php.svg?branch=master)](https://travis-ci.org/aperezg/docker-alpine-php)
+
 # Docker image for PHP-fpm
 
 ## Tags

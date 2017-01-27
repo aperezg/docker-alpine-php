@@ -1,0 +1,17 @@
+language: php
+php:
+  - '7.0'
+
+services:
+  - docker
+
+install:
+  - docker build -t php7 -f 7/Dockerfile 7/
+  - docker build -t php7-dev -f dev/Dockerfile dev/
+
+  - docker run -d --name php7 php7
+  - docker run -d --name php7-dev php7-dev
+
+script:
+  - docker exec php7 php -v
+  - docker exec php7-dev php -v
