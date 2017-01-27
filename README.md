@@ -3,6 +3,7 @@
 ## Tags
 
 * latest, 7.0 [Dockerfile](https://github.com/aperezg/docker-alpine-php/blob/master/7/Dockerfile)
+* 7-dev [Dockerfile](https://github.com/aperezg/docker-alpine-php/blob/master/dev/Dockerfile)
 
 Image for php-fpm. It based on Alpine linux and so it's very small (~75MB).
 Include the most common extensions and you can extend whatever you need.
